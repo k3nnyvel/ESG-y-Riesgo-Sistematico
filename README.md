@@ -29,8 +29,6 @@ Este repositorio contiene el código y las bases de datos utilizadas en la tesis
 
 - **`Treynor_Ratio_Clusters.xlsx`** → Archivo con el cálculo del Ratio de Treynor para cada clúster.  
 
----
-
 ## ⚙️ Requisitos  
 
 - Python 3.10+  
@@ -40,10 +38,8 @@ Este repositorio contiene el código y las bases de datos utilizadas en la tesis
   - scikit-learn  
   - matplotlib  
   - seaborn  
-  - statsmodels  
-
----
-
+  - statsmodels
+    
 ## ▶️ Ejecución  
 
 1. Clonar este repositorio:  
@@ -51,25 +47,25 @@ Este repositorio contiene el código y las bases de datos utilizadas en la tesis
    git clone https://github.com/TU-USUARIO/ESG-y-Riesgo-Sistematico.git
 
 
-Abrir CodigoTesis_v2.py en Spyder o cualquier IDE de Python.
+2. Abrir CodigoTesis_v2.py en Spyder o cualquier IDE de Python.
 
-Verificar que los archivos de datos (.xlsx) estén en la misma carpeta del script.
+3. Verificar que los archivos de datos (.xlsx) estén en la misma carpeta del script.
 
-Ejecutar el código para:
+4. Ejecutar el código para:
 
-Generar los clusters ESG.
+  - Generar los clusters ESG.
 
-Calcular los betas patrimoniales.
+  - Calcular los betas patrimoniales.
 
-Analizar centroides desnormalizados.
+  - Analizar centroides desnormalizados.
 
-Obtener gráficos y métricas financieras (Treynor, etc.).
+  - Obtener gráficos y métricas financieras (Treynor, etc.).
 
 📖 Licencia
 
 Este proyecto está bajo la licencia MIT.
-
-🌍 README in English
+---
+## 🌍 README in English
 
 Code and datasets used in the thesis on ESG performance and financial risk
 
@@ -78,7 +74,7 @@ Thesis Kevin – Code and Data
 This repository contains the code and datasets used in the thesis:
 
 "Relationship between ESG performance and systematic financial risk"
-
+---
 📂 Repository Contents
 
 CodigoTesis_v2.py → Main script. Includes:
@@ -103,6 +99,7 @@ Retornos Mensuales Promedio.xlsx → Monthly average historical returns of the s
 
 Treynor_Ratio_Clusters.xlsx → File with Treynor Ratio calculations for each cluster.
 
+
 ⚙️ Requirements
 
 Python 3.10+
@@ -121,17 +118,18 @@ seaborn
 
 statsmodels
 
+
 ▶️ Execution
 
-Clone this repository:
+1. Clone this repository:
 
-git clone https://github.com/TU-USUARIO/ESG-y-Riesgo-Sistematico.git
+  git clone https://github.com/TU-USUARIO/ESG-y-Riesgo-Sistematico.git
 
-Open CodigoTesis_v2.py in Spyder or any Python IDE.
+2. Open CodigoTesis_v2.py in Spyder or any Python IDE.
 
-Make sure the data files (.xlsx) are in the same folder as the script.
+3. Make sure the data files (.xlsx) are in the same folder as the script.
 
-Run the code to:
+4. Run the code to:
 
   - Generate ESG clusters.
 
